@@ -1,0 +1,85 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	font-family: Tahoma, sans-serif;
+	font-size: 10.5px;
+	color: #fff;
+	text-shadow: 1px 1px 0px #535353;
+	background: url(login-img/bg.png) repeat-x;
+	background-color: #70c0f3;
+}
+#container {
+	background: url(login-img/main_bg1.png) no-repeat;
+	width: 479px;
+	height: 320px;
+	margin: 130px auto 0 auto;
+	padding: 8px 0 0 8px;
+	position: relative;
+}
+#logo {
+	background: url(login-img/logo.png) no-repeat;
+	width: 186px;
+	height: 86px;
+	margin: 45px 0 0 17px;
+}
+#wrapper {
+	position: absolute;
+	right: 12px;
+	top: 6px;
+	background: url(login-img/wrapper.png) no-repeat;
+	width: 93px;
+	height: 65px;
+}
+#container ul {
+	width: 140px;
+	height: 140px;
+	float: left;
+	margin: -3px 0 0 124px;
+}
+#container ul li {
+	display: block;
+	float: right;
+	margin: 16.3px 20px 0px 0px;
+}
+#container form {
+	width: 215px;
+	height: 145px;
+	float: right;
+	margin-top: 10px;
+	position: relative;
+}
+#container form input {
+	width: 140px;
+	height: 16px;
+	border: 1px solid #6f6f6f;
+	margin-bottom: 9.2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+#container form input.submit {
+	width: 24px;
+	height: 25px;
+	border: none;
+	background: url(login-img/signup.png) no-repeat;
+	position: absolute;
+	top: 56px;
+	right: 27px;
+}
